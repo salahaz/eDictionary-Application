@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Welcome to our Enterprise Calculator</title>
+    </h:head>
+    <h:body>
+        <h1>Online e-Dictionary Service</h1>
+        <h:form>
+            <h:inputText id="word" value="#{dictionaryController.word}" required="True"/>
+            &nbsp;&nbsp;
+            <h:selectOneMenu id="strategy" value="#{dictionaryController.strategy}">
+                <f:selectItem itemValue="prefix" itemLabel="Prefix" />
+                <f:selectItem itemValue="suffix" itemLabel="Suffix" />
+                <f:selectItem itemValue="soundex" itemLabel="SoundEx" />
+            </h:selectOneMenu>
+            <br /><br />
+            <h:commandButton value=" Define "> 
+                <f:ajax listener="#{dictionaryController.define}" execute="word" render="result" />
+            </h:commandButton>
+            &nbsp;&nbsp;
+            <h:commandButton value=" Match " >
+                <f:ajax listener="#{dictionaryController.match}" execute="word strategy" render="result" />
+            </h:commandButton>
+
+            <br /><br/>
+            Result:
+            <div style="white-space : pre-wrap">
+            <h:outputLabel id="result" value="#{dictionaryController.result}" />
+            </div>
+        </h:form>
+    </h:body>
+</html>
+

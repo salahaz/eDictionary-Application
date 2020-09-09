@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/salahazekour/NetBeansProjects/eDictionaryApplication/eDictionaryApplication-ejb/src/java/ma/aui/sse/csc3327/eDictionary/models/entities/Define.java</file>
+            <file>file:/Users/salahazekour/NetBeansProjects/eDictionaryApplication/eDictionaryApplication-ejb/src/java/ma/aui/sse/csc3327/eDictionary/models/services/pojos/DictionaryServiceImpl.java</file>
+            <file>file:/Users/salahazekour/NetBeansProjects/eDictionaryApplication/eDictionaryApplication-ejb/src/java/ma/aui/sse/csc3327/eDictionary/models/services/ejbs/DictionaryServiceBean.java</file>
+            <file>file:/Users/salahazekour/NetBeansProjects/eDictionaryApplication/eDictionaryApplication-ejb/src/conf/glassfish-resources.xml</file>
+            <file>file:/Users/salahazekour/NetBeansProjects/eDictionaryApplication/eDictionaryApplication-ejb/src/java/ma/aui/sse/csc3327/eDictionary/models/entities/Match.java</file>
+            <file>file:/Users/salahazekour/NetBeansProjects/eDictionaryApplication/eDictionaryApplication-ejb/src/conf/persistence.xml</file>
+            <file>file:/Users/salahazekour/NetBeansProjects/eDictionaryApplication/eDictionaryApplication-ejb/src/java/ma/aui/sse/csc3327/eDictionary/models/services/ejbs/DictionaryServiceBeanLocal.java</file>
+            <file>file:/Users/salahazekour/NetBeansProjects/eDictionaryApplication/eDictionaryApplication-ejb/src/java/ma/aui/sse/csc3327/eDictionary/models/services/pojos/DictionaryService.java</file>
+        </group>
+    </open-files>
+</project-private>
